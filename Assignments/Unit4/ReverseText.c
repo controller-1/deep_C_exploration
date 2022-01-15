@@ -34,7 +34,7 @@ int main(void)
     {
         scanf("%s",words[i]);
     }
-    for(i=num_words-1;i>0;i--)
+    for(i=num_words-1;i>-1;i--)
     {
         printf("%s ",words[i]);
     }
